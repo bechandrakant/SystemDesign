@@ -8,4 +8,5 @@ Steps:
 3. Make Constructor private
 4. Create static inner class and copy the fields from outer class.
 5. Create a static builder method which returns Inner class instance.
-6. 
+6. Create a build method that returns parent class instance with mapped fields
+7. Create setter method for fields in inner class that returns InnerClass instance.
